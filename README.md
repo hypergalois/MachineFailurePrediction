@@ -4,9 +4,9 @@
 
 ![SQLITE](img/1.png "SQLITE DB")
 
-- **Manejo de valores nulos**: Se utilizaron técnicas de imputación para reemplazar los valores nulos de características clave.
-- **Codificación de variables categóricas**: Se aplicó One-Hot Encoding para las variables categóricas.
-- **Normalización y escalado**: Se utilizó **PCA (Análisis de Componentes Principales)** para reducir la dimensionalidad y escalado de las características.
+- **Handling missing values**: Imputation techniques were used to replace missing values in key features.
+- **Encoding categorical variables**: One-Hot Encoding was applied to categorical variables.
+- **Normalization and scaling**: **PCA (Principal Component Analysis)** was used for dimensionality reduction and feature scaling.
 
 ![Correlation](img/2.png "Correlation")
 
@@ -14,12 +14,12 @@
 
 ## 2. **Model Selection** Using Multiple Classifiers (e.g., Logistic Regression, RandomForest, GradientBoosting, XGBoost)
 
-- **Logistic Regression**: Regresión logística para clasificar el estado de la máquina.
-- **Random Forest Classifier**: Utilizando múltiples árboles para manejar relaciones complejas entre características.
-- **Gradient Boosting Classifier**: Modelo de boosting para mejorar la precisión.
-- **XGBoost Classifier**: Un modelo de boosting avanzado optimizado para rapidez y eficiencia.
+- **Logistic Regression**: Used for classifying machine status.
+- **Random Forest Classifier**: Utilizes multiple trees to handle complex feature relationships.
+- **Gradient Boosting Classifier**: Boosting model to improve accuracy.
+- **XGBoost Classifier**: An advanced boosting model optimized for speed and efficiency.
 
-La **PCA** se usó para reducir la dimensionalidad del conjunto de características y mejorar el rendimiento de los modelos.
+**PCA** was used to reduce feature dimensionality and improve model performance.
 
 ![Explained Variance](img/4.png "Explained Variance")
 
@@ -27,10 +27,10 @@ La **PCA** se usó para reducir la dimensionalidad del conjunto de característi
 
 ## 3. **Metrics Calculation** for Each Model
 
-- **Precisión (Precision)**: Proporción de predicciones positivas correctas.
-- **Recuerdo (Recall)**: Proporción de verdaderos positivos sobre los total de casos positivos reales.
-- **F1 Score**: Media armónica de la precisión y el recuerdo.
-- **Exactitud (Accuracy)**: Proporción de predicciones correctas en total.
-- **Matriz de confusión**: Para visualizar los verdaderos positivos, falsos positivos, etc.
+- **Precision**: The proportion of correctly predicted positive cases.
+- **Recall**: The proportion of true positives over the total actual positive cases.
+- **F1 Score**: The harmonic mean of precision and recall.
+- **Accuracy**: The proportion of correct predictions overall.
+- **Confusion Matrix**: To visualize true positives, false positives, etc.
 
 ![Metrics screenshot](img/6.png "Evaluation Results")
